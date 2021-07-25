@@ -1,0 +1,122 @@
+.blur {
+    opacity: 0.51;
+    backdrop-filter: blur(20px);
+}
+.body {
+    font-weight: 300;
+    width: 320px;
+}
+.MainDiv1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+}
+.Heading {
+    font-size: 44px;
+    margin-top: 40px;
+}
+.AddButton {
+    font-size: 40px;
+    margin-top: 40px;
+}
+.MainDiv2 {
+    margin-top: 20px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.SubDiv {
+    width: 320px;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid tomato;
+    box-shadow: 10px 10px 10px grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.light {
+    font-weight: 100;
+    font-size: 28px;
+}
+.overlap {
+    margin-top: -150px;
+}
+
+.add-newlist{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    bottom: 5em;
+    margin: auto;
+    color:#e74c3c;
+    border: 1px solid #e74c3c;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px 5px lightgray ;
+    transition: 0.5s;
+    background-color: whitesmoke;
+    margin-top: -350px;
+}
+
+.add-newlist:hover{
+    width: 430px;
+    height: 210px;
+}
+
+.add-heading{
+    text-align: center;
+    padding: 1%;
+    font-size:1.4em;
+    margin-bottom: 0;
+}
+
+.page {
+    text-align: center;
+    text-decoration: none;
+}
+
+.input-box{
+    width: 70%;
+    height: 10%;
+    text-align: center;
+    position: relative;
+    border: 1px solid #e74c3c;
+    border-radius: 5px;
+    padding: 0.6em;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,50%);
+    outline: #e74c3c;
+    box-shadow: 2px 2px 7px 4px lightgray ;
+    transition: 0.5 s;
+}
+
+.input-box:active{
+    font-size: 1em;
+}
+
+.add-button{
+    width: 25%;
+    height: 18%;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,50%);
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 19px;
+    border: 1px solid #e74c3c;
+    outline: #e74c3c;
+    font-size: 1.1em;
+    transition: 0.5s;
+}
+
+.add-button:active{
+    width: 30%;
+    height: 20%;
+    background-color: #d82613;
+    cursor: pointer;
+}

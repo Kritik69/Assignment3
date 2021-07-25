@@ -1,0 +1,40 @@
+.body {
+    font-weight: 300;
+    width: 320px;
+}
+.MainDiv1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+}
+.Heading {
+    font-size: 44px;
+    margin-top: 40px;
+}
+.AddButton {
+    font-size: 40px;
+    margin-top: 40px;
+}
+.MainDiv2 {
+    margin-top: 20px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.SubDiv {
+    width: 320px;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid tomato;
+    box-shadow: 10px 10px 10px grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.light {
+    font-weight: 100;
+    font-size: 28px;
+}
